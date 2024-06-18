@@ -9,7 +9,7 @@ on:
       - master
   # Commented out the schedule to disable it
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
+    - cron: '15 14 * * *'  # Runs daily at midnight
 
 jobs:
   run-selenium-script:
